@@ -41,12 +41,12 @@ const Todos = () => {
   }
 
   function deletestate(id) {
-    let data = state.map((ele) => {
+    let data = state.filter((ele) => {
       if (id != ele.id) {
         return ele;
       }
     });
-    setstate(data);
+    setstate(data || []);
   }
 
   return (
