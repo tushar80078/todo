@@ -36,6 +36,7 @@ const Todos = () => {
         return ele;
       }
     });
+
     setstate(store);
     console.log("Todos:", state);
   }

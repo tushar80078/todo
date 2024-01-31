@@ -12,6 +12,12 @@ const HandleTodos = (prop) => {
                 <tr>
                   <td>{e.todo}</td>
                 </tr>
+
+                <>
+                  {e.isUpdate == true ? <input type="text" /> : null}
+                  {e.isUpdate == true ? <button>submit</button> : null}
+                </>
+
                 <tr>
                   <button
                     onClick={() => prop.gettodofromchild(e.id)}
