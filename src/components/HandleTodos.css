@@ -1,0 +1,28 @@
+#btntwo{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    margin-right: 300px;
+    border-radius: 5px;
+    color: white;
+    background-color:rgb(20, 142, 20) ;
+    outline: transparent;
+    text-decoration: none;
+}
+#btnthree{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    margin-right: 300px;
+    border-radius: 5px;
+    color: white;
+    background-color:red ;
+    outline: transparent;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+ /*let data = [...state];
+    data.splice(id, 1);
+    setstate(data);
+    console.log(id);*/
